@@ -13,26 +13,25 @@ O repositório contém duas pastas principais, cada uma com um exercício espec�
    - **index.html**: Página principal com links.
    - **Pasta `images`**: Contém uma imagem (baixada da internet).
    - **Pasta `docs`**: Contém dois documentos:
-     - Um arquivo PDF (nome sugerido: `documento.pdf`)
-     - Um arquivo DOC ou DOCX (nome sugerido: `documento.docx`)
+     - Um arquivo PDF (nome utilizado: `document.pdf`)
+     - Um arquivo DOC ou DOCX (nome utilizado: `document.doc`)
 
 2. **Conteúdo do `index.html`**:
    - **Link para a Página da Escola**:
      ```html
-     <a href="https://ucb2.catolica.edu.br/portal/estudante/">Página da Escola</a>
+     <a href="https://ucb2.catolica.edu.br/portal/estudante/">Portal do Estudante</a><br><br>
      ```
    - **Link para o Documento PDF**:
      ```html
-     <a href="docs/documento.pdf">Documento PDF</a>
+     <a href="docs/document.pdf">Acesse o PDF</a><br><br>
      ```
    - **Link para o Documento Word Utilizando uma Imagem**:
      ```html
-     <a href="docs/documento.docx">
-       <img src="images/figura.jpg" alt="Imagem de Documento Word">
-     </a>
+     <a href="docs/document.doc">
+        <img src="images/image.png" alt="Imagem para acessar o documento Word">
+    </a>
      ```
-     Substitua `"figura.jpg"` pelo nome da imagem baixada.
-
+     
 ### Exercício 02
 
 1. **Diretório Principal**: `exercicio02`
@@ -52,8 +51,10 @@ O repositório contém duas pastas principais, cada uma com um exercício espec�
      ```
    - **Imagem e Texto**:
      ```html
-     <img src="path/to/image.jpg" alt="Descrição da Imagem">
-     <p>Texto qualquer com duas linhas.</p>
+     <img src="images/image.png" alt="Descrição da Imagem"><br><br>
+
+     <p>Esse emoji usa óculos.</p>
+     <p>Ele também sabe dar joinha.</p>
      ```
 
 3. **Conteúdo do `contatos.html`**:
@@ -63,8 +64,8 @@ O repositório contém duas pastas principais, cada uma com um exercício espec�
      ```
    - **Informações de Contato**:
      ```html
-     <p>Nome 1: (XX) XXXXX-XXXX</p>
-     <p>Nome 2: (XX) XXXXX-XXXX</p>
+     <p>Rodrigo "Diggo" Carvalho - (11) 95252-5555</p>
+     <p>Júlia "Raluca" Felício - (11) 92525-5555</p><br>
      ```
    - **Link de Retorno**:
      ```html
